@@ -1,0 +1,9 @@
+
+- creare un nuovo progetto con components e building asset ( come sempre tema a piacere )
+- Pagine :
+    - home con 4 articoli
+    - index con tutti gli articoli
+    - category
+    - show
+- utilizzare un file css per la navbar, un file per la card, un file per il footer ecc..
+- EXTRA: creare una pagina contatti con form stilizzato

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- -- google font --   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&family=Montserrat:wght@100&family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+
+    <!-- -- mio css --  -->
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Ricondizionati 4 sale</title>
+</head>
+<body>
+
+
+<!-- ------ NAV Bar ------  -->
+
+<nav class="navbar navbar-expand-lg bg-light">
+
+    <div class="container-fluid">
+        <!-- ------ logo sito ------  -->
+      <a class="navbar-brand" href="#">
+        <img class="square" src="https://picsum.photos/50" alt="">
+      </a>
+    <!-- ------ bottone mobile ------  -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/landing-page.html">Chi siamo</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              community
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">FAQ</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="./pages/download.html">Download</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- ------ login ------  -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <button class="nav-link btn btn-primary btn-lg px-4 me-md-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Login <span><i class="bi bi-person-circle"></i></span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <form class="padding p-2">
+              <li><input type="email" placeholder="email"></li>
+              <li><input type="password" placeholder="password"></li>
+              <li><button class="btn btn-primary px-3 me-md-2">vai</button></li>
+            </form>
+        </ul>
+      </div>
+    </div>
+
+</nav>
+<!-- ----------------- da migliorare il box login -----------------  -->
+
+
+<!-- ------ Scopri la potenza dei nostri computer ------  -->
+<div class="container col-xxl-8 px-4 py-5 animazione">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="https://picsum.photos/700/500" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold lh-1 mb-3">Scopri la potenza dei nostri computer</h1>
+      <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat consequuntur velit minus cupiditate rerum laboriosam deleniti eaque neque! Quidem eveniet fugiat nulla ratione, sint iure deserunt delectus temporibus quo magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugit, qui veritatis vero tempora debitis quo nobis cumque laboriosam, explicabo, iusto quam ab quaerat saepe eos atque illum eius! Amet..</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary btn-lg px-4 me-md-2" href="./pages/landing-page.html">scopri di più</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ------ carosello sole immagini ------  -->
+<div class="container-fluid d-flex justify-content-center animazione">
+  <div id="carouselExampleSlidesOnly" class="carousel slide d-flex" data-bs-ride="carousel">
+    <div class="carousel-inner d-flex">
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/1300/500" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1300/500" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1300/500" alt="">
+      </div>
+    </div>
+</div>
+</div>
+  
+<!-- ------ lista novità ------  -->
+
+<div href="#" class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Nuove implementazioni</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <!-- ------ novità 1 ------  -->
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i class="bi bi-cpu-fill"></i>
+        </div>
+        <!-- ------ caption novità 1 ------  -->
+        <div>
+          <h2>Velocità aumentata</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nesciunt eligendi excepturi a assumenda? Debitis fugiat, quas quaerat aut, eligendi minus unde repellat magni ducimus dolorum quod fugit delectus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil sed, inventore deserunt sapiente possimus labore omnis unde reprehenderit vel facere reiciendis. Suscipit voluptas odit veritatis, quae nam quos sit explicabo!.</p>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-novita-1">
+            Vedi di più
+          </button>
+        </div>
+      </div>
+
+      <!-- ------ novità 2 ------  -->
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i class="bi bi-back"></i>
+        </div>
+        <div>
+          <h2>Ottimizzazione software</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nesciunt eligendi excepturi a assumenda? Debitis fugiat, quas quaerat aut, eligendi minus unde repellat magni ducimus dolorum quod fugit delectus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil sed, inventore deserunt sapiente possimus labore omnis unde reprehenderit vel facere reiciendis. Suscipit voluptas odit veritatis, quae nam quos sit explicabo!.</p>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-novita-2">
+            Vedi di più
+          </button>
+        </div>
+      </div>
+
+      <!-- ------ novità 3 ------ -->
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i class="bi bi-box-fill"></i>
+        </div>
+        <div>
+          <h2>Design nuovo</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nesciunt eligendi excepturi a assumenda? Debitis fugiat, quas quaerat aut, eligendi minus unde repellat magni ducimus dolorum quod fugit delectus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil sed, inventore deserunt sapiente possimus labore omnis unde reprehenderit vel facere reiciendis. Suscipit voluptas odit veritatis, quae nam quos sit explicabo!.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-novita-3">
+            Vedi di più
+          </button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+<!-- ------ footer ------  -->
+
+<div class="container-fluid">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top bg-dark">
+    <!-- ------ loghi partner ------  -->
+    <div class="col mb-3 d-none d-md-block">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+    </div>
+
+    <div class="col mb-3 d-none d-xl-block">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+      <img class="margin mb-3" src="https://picsum.photos/100" alt="">
+    </div>
+  
+    <!-- ------ links ------  -->
+    <div class="col mb-3 ml-6 text-white">
+      <h5>Section</h5>
+      <ul class="nav flex-column text-white">
+        <li class="nav-item padding p-2 ml-3"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+        <li class="nav-item padding p-2 mb-2"><a href="./pages/landing-page.html" class="nav-link p-0 text-muted">Features</a></li>
+        <li class="nav-item padding p-2 mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+        <li class="nav-item padding p-2 mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+        <li class="nav-item padding p-2 mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+
+
+<!-- ------ modal lista novità ------  -->
+
+<!-- Modal novità 1 -->
+<div class="modal fade" id="modal-novita-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Velocità aumentata del 35%</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://picsum.photos/id/237/400/300" alt="">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, facilis expedita! Autem ullam magni non! At excepturi beatae pariatur quos doloremque, recusandae, commodi perspiciatis saepe, iste sint eligendi facere repellat?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ab voluptatibus iste qui et labore recusandae accusamus facere, magnam dolorem adipisci sit ex exercitationem tempora voluptatem ducimus temporibus illum in!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aspernatur temporibus, eius nulla esse totam molestiae, nostrum voluptate dolorem quas reiciendis iste deserunt quod ab labore ipsum commodi culpa expedita.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+        <a class="btn btn-primary" href="">Vedi prodotti</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal novità 2 -->
+<div class="modal fade" id="modal-novita-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Software con firmware 3.0</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://picsum.photos/id/237/400/300" alt="">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, facilis expedita! Autem ullam magni non! At excepturi beatae pariatur quos doloremque, recusandae, commodi perspiciatis saepe, iste sint eligendi facere repellat?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ab voluptatibus iste qui et labore recusandae accusamus facere, magnam dolorem adipisci sit ex exercitationem tempora voluptatem ducimus temporibus illum in!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aspernatur temporibus, eius nulla esse totam molestiae, nostrum voluptate dolorem quas reiciendis iste deserunt quod ab labore ipsum commodi culpa expedita.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+        <a class="btn btn-primary" href="">Vedi prodotti</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal novità 1 -->
+<div class="modal fade" id="modal-novita-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Un design più user friendly</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://picsum.photos/id/237/400/300" alt="">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, facilis expedita! Autem ullam magni non! At excepturi beatae pariatur quos doloremque, recusandae, commodi perspiciatis saepe, iste sint eligendi facere repellat?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ab voluptatibus iste qui et labore recusandae accusamus facere, magnam dolorem adipisci sit ex exercitationem tempora voluptatem ducimus temporibus illum in!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aspernatur temporibus, eius nulla esse totam molestiae, nostrum voluptate dolorem quas reiciendis iste deserunt quod ab labore ipsum commodi culpa expedita.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+        <a class="btn btn-primary" href="">Vedi prodotti</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

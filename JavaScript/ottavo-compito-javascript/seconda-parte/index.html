@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- -------- libreria bootstrap --------  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+        <!-- ----- my style css -----  -->
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+<body>
+    
+
+    <h1 class="text-center text-danger">esercizio agenda</h1>
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="input-group w-75">
+            <input type="text" aria-label="First name" placeholder="name..." class="form-control">
+            <input type="text" aria-label="Last name" placeholder="number..." class="form-control">
+            <button class="btn btn-outline-success" type="button" id="btnDelete">Add</button>
+        </div>
+    </div>
+    
+    <!-- ----- elimina contatto --------  -->
+    <div class="cntainer-fluid d-flex justify-content-center">
+        <div class="input-group my-3 w-25 ">
+            <input type="text" class="form-control" placeholder="insert name..." aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-danger" type="button" id="btnDelete">Delete</button>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Numero di telefono</th>
+                </tr>
+            </thead>
+            <tbody id="wrapped">
+                
+            </tbody>
+        </table>
+    </div>
+    
+
+    <!-- -------- bootstrap scripts --------  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- ----- my javascript ----- -->
+    <script src="main.js"></script>
+</body>
+</html>

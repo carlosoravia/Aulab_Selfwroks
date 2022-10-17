@@ -1,0 +1,27 @@
+.foto-header-chi-siamo{
+    background-image: url('../media/img-1.webp');
+    background-size: cover  ;
+}
+
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.animazione{
+    animation-name: SlideInRight;
+    animation-duration: 2s;
+}
+
+@keyframes SlideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

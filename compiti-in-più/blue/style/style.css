@@ -1,0 +1,121 @@
+*{
+    font-family: 'Electrolize', sans-serif;
+}
+
+
+a > *{
+    color: white;
+}
+
+
+
+:root{
+    background-color: rgb(17, 125, 171,);
+}
+
+li:hover{
+    color: black;
+}
+
+.nascondi{
+    overflow: hidden;
+}
+
+
+
+/* sezione dell'header */
+
+.header{
+    background-color:aqua;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( rgba(17, 125, 171, 0.673), rgba(17, 125, 171, 0.673)), url('../media/header.jpg');
+    background-position: cover;
+}
+
+.title{
+    color: white;
+    padding-top: 50vh;
+}
+
+.nav-color{
+    background-color: rgb(17, 125, 171,);
+}
+
+.colorIconCit{
+    color: blue;
+}
+
+
+#backgroundFeatures{
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient( rgba(17, 125, 171, 0.673), rgba(17, 125, 171, 0.673)), url('../media/power-plant-4712830_1280.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px solid blue;
+}
+
+.containerFeatures{
+    padding-top: 30vh;
+}
+    
+
+
+/* nav bar */
+
+
+
+
+/* swiper operatori */
+
+.swiper {
+    width: 100%;
+    height: 75vh    ;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    .swiper {
+        width: 100%;
+        height: 40vh    ;
+    }
+}
